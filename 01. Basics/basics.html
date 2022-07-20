@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> JavaScript | Basics</title>
+  </head>
+  <body>
+
+
+    <!-- 01. JavaScript Outputs -->
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = 10+20;
+    </script>
+
+    <script>
+      document.write(20+30);
+    </script>
+    
+    <br>
+
+    <button type="button" onclick="document.write(2+5)">Click Me</button>
+
+
+  <!-- Start JavaScript Here -->
+  <script type="text/javascript" src="basics.js">
+
+  </script>
+
+  <script>
+    window.alert(10+15);
+  </script>
+  
+  <button onclick="window.print()">Print</button>
+
+
+  <script>
+    console.log("Hello World")
+  </script>
+
+  <!-- 02. JavaScript Statements -->
+  
+  
+  <p id="total"></p>
+
+  <script>
+      var x, y, z;
+      x = 5;
+      y = 3;
+      z = x+y;
+
+      document.getElementById("total").innerHTML = "The value of z is " + z;
+  </script>
+  </body>
+</html>
